@@ -38,12 +38,6 @@
         <a-asset-item id="frameSetup" src="Frame_SetUp.glb"></a-asset-item>
         
         <img id="pines" src="Render.jpg">
-        <img id="posx" src="cubemap/_px.jpg">
-        <img id="posy" src="cubemap/_py.jpg">
-        <img id="posz" src="cubemap/_pz.jpg">
-        <img id="negx" src="cubemap/_nx.jpg">
-        <img id="negy" src="cubemap/_ny.jpg">
-        <img id="negz" src="cubemap/_nz.jpg">
       </a-assets>
 
       <a-camera id="camera" position="0 4 6"></a-camera>
@@ -123,7 +117,7 @@
           bob
           shadow>
         </a-entity>
-        <a-sky src="#pines"></a-sky>
+        <a-sky src="#pines" rotation = " 0 180 0"></a-sky>
         
       </a-entity>
     </a-scene>
